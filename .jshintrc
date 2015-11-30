@@ -1,0 +1,59 @@
+// JSHint Options: http://jshint.com/docs/options
+
+{
+    /*
+     * ENVIRONMENTS
+     * =================
+     */
+    "mocha": true,
+
+    "node": true,
+
+    /*
+     * ENFORCING OPTIONS
+     * =================
+     */
+
+    // Force all variable names to use either camelCase style or UPPER_CASE
+    // with underscores.
+    "camelcase": true,
+
+    // Force the use of curly braces around blocks in loops and conditionals.
+    "curly": true,
+
+    // Prohibit use of == and != in favor of === and !==.
+    "eqeqeq": true,
+
+    // Suppress warnings about == null comparisons.
+    "eqnull": true,
+
+    // Prohibit use of immediate function invocations without wrapping parantheses.
+    "immed": true,
+
+    // Prohibit use of a variable before it is defined.
+    "latedef": true,
+
+    // Require capitalized names for constructor functions.
+    "newcap": true,
+
+    // Prohibit the use of constructor functions for side-effects.
+    "nonew": true,
+
+    // Enforce use of single quotation marks for strings.
+    "quotmark": "single",
+
+    // Prohibit trailing whitespace.
+    "trailing": true,
+
+    // Prohibit use of explicitly undeclared variables.
+    "undef": true,
+
+    // Warn when variables are defined but never used.
+    "unused": true,
+
+    // Enforce placing 'use strict' at the top function scope.
+    "strict": true,
+
+    // Enforce no trailing whitespace.
+    "trailing": true
+}
