@@ -71,25 +71,25 @@ gulp.task('unlink', flatten.unlink());
 
 ## Options
 
-### link
+#### link
 
-#### skipDepRootDir
+* skipDepRootDir
 
-If set to true, all dependency root directories will be taken out, otherwise they will be preserved.
+    If set to true, all dependency root directories will be taken out, otherwise they will be preserved.
 
-**Type** `boolean`
-**Default** `true`
+    Type `boolean`
+    Default `true`
 
-#### all options will also be passed to gulp-bower-src
+    all options will also be passed to gulp-bower-src
 
-### unlink
+#### unlink
 
-#### base
+* base
 
-Specifies where to start cleaning all generated symlinks.
+    Specifies where to start cleaning all generated symlinks.
 
-**Type** `string`
-**Default** `.`
+    Type `string`
+    Default `.`
 
 ## How to Contribute
 
